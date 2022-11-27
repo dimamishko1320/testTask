@@ -1,6 +1,6 @@
-package com.example.testTask;
+package com.example.testTask.server;
 
-import com.example.testTask.Utils.MyBatisUtils;
+import com.example.testTask.server.Utils.MyBatisUtils;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;

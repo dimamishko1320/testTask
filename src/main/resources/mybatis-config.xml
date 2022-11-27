@@ -25,7 +25,7 @@
     </environments>
 
     <mappers>
-        <mapper class="com.example.testTask.mappers.AccountMapper"/>
+        <mapper class="com.example.testTask.server.mappers.AccountMapper"/>
     </mappers>
 
 </configuration>

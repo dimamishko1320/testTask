@@ -1,4 +1,4 @@
-package com.example.testTask.model;
+package com.example.testTask.server.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

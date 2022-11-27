@@ -1,7 +1,7 @@
-package com.example.testTask.daoImpl;
+package com.example.testTask.server.daoImpl;
 
-import com.example.testTask.Utils.MyBatisUtils;
-import com.example.testTask.mappers.AccountMapper;
+import com.example.testTask.server.Utils.MyBatisUtils;
+import com.example.testTask.server.mappers.AccountMapper;
 import org.apache.ibatis.session.SqlSession;
 
 public class DaoImplBase {

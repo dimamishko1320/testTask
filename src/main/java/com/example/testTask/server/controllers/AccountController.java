@@ -1,7 +1,7 @@
-package com.example.testTask.controllers;
+package com.example.testTask.server.controllers;
 
-import com.example.testTask.Service.AccountServiceImpl;
-import com.example.testTask.Service.Interface.AccountService;
+import com.example.testTask.server.Service.AccountServiceImpl;
+import com.example.testTask.server.Service.Interface.AccountService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

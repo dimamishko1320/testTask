@@ -1,4 +1,4 @@
-package com.example.testTask.exception;
+package com.example.testTask.server.exception;
 
 
 

@@ -1,6 +1,4 @@
-package com.example.testTask.Service.Interface;
-
-import com.example.testTask.exception.ServerException;
+package com.example.testTask.server.Service.Interface;
 
 public interface AccountService
 {

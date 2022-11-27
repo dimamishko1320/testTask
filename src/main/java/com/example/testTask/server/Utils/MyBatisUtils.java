@@ -1,4 +1,4 @@
-package com.example.testTask.Utils;
+package com.example.testTask.server.Utils;
 
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSessionFactory;

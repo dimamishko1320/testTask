@@ -1,6 +1,5 @@
-package com.example.testTask.mappers;
+package com.example.testTask.server.mappers;
 
-import com.example.testTask.model.Account;
 import org.apache.ibatis.annotations.*;
 
 public interface AccountMapper {
