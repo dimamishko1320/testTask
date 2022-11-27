@@ -1,6 +1,9 @@
 package com.example.testTask.server.mappers;
 
+import com.example.testTask.server.model.Account;
 import org.apache.ibatis.annotations.*;
+
+import java.util.List;
 
 public interface AccountMapper {
     @Insert("INSERT INTO Accounts (id, amount) VALUES " +
@@ -12,6 +15,12 @@ public interface AccountMapper {
 
     @Select("SELECT amount FROM Accounts WHERE id=#{id}")
     Long getAmount(@Param("id")int id);
+
+    @Select("SELECT id, amount from Accounts")
+    @Results({
+            @Result(property = "id", column = "id"),
+            @Result(property = "id", column = "id")})
+    List<Account> getAllAccounts();
 
 
 }
