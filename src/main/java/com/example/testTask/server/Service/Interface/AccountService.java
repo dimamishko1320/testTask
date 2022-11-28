@@ -1,5 +1,8 @@
 package com.example.testTask.server.Service.Interface;
 
+import org.springframework.stereotype.Service;
+
+@Service
 public interface AccountService
 {
     /**

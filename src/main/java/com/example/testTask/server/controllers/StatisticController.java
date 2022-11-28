@@ -12,11 +12,9 @@ public class StatisticController {
     private Statistic statistic;
 
     @GetMapping("/statistic")
-    public void getStatistic() {
-        System.out.println("Текущая статистика: ");
-        statistic.getCurrentValue().toString();
-        System.out.println("Общая статистика статистика: ");
-        statistic.getTotalValue().toString();
+    public String getStatistic() {
+        return "Статистика за еденицу времени : "+statistic.getCurrentValue().toString()+"\br"
+               +"Общая статистика: "+statistic.getTotalValue().toString();
     }
 
     @DeleteMapping("/statistic")

@@ -10,11 +10,6 @@ public class ServerException extends Exception{
         this.errorCode = code;
     }
 
-    public ServerException(ErrorCode code, String message){
-        this.errorCode=code;
-        this.message=message;
-    }
-
     public ErrorCode getErrorCode() {
         return errorCode;
     }

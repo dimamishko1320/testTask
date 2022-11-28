@@ -7,6 +7,10 @@ import org.apache.hc.core5.http.Method;
 import java.io.IOException;
 import java.net.URI;
 
+/**
+ * The reader class that will call
+ * the getAmount method
+ */
 @AllArgsConstructor
 class Reader implements Runnable {
 

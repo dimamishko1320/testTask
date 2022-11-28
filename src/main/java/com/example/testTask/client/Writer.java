@@ -7,6 +7,10 @@ import java.io.IOException;
 import java.net.URI;
 import java.util.Random;
 
+/**
+ * The writer class that will call
+ * the addAmount method
+ */
 @AllArgsConstructor
 class Writer implements Runnable {
 

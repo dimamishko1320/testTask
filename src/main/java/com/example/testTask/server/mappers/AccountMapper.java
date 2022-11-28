@@ -13,14 +13,15 @@ public interface AccountMapper {
     @Update("UPDATE Accounts SET amount = #{amount} WHERE id = #{id}")
     Integer updateInAccount(@Param("id")int id, @Param("amount")long amount);
 
-    @Select("SELECT amount FROM Accounts WHERE id=#{id}")
-    Long getAmount(@Param("id")int id);
-
     @Select("SELECT id, amount from Accounts")
     @Results({
             @Result(property = "id", column = "id"),
             @Result(property = "id", column = "id")})
     List<Account> getAllAccounts();
+
+    @Delete("DELETE FROM Accounts")
+    int deleteAllAccounts();
+
 
 
 }

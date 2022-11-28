@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class AccountController {
 
     @Autowired
-    private AccountService accountService = new AccountServiceImpl();
+    private final AccountService accountService = new AccountServiceImpl();
 
     @GetMapping("/account/{id}")
     public Long getAmount(@PathVariable Integer id) {
